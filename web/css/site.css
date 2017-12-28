@@ -113,3 +113,12 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+#my_canvas
+{
+    border: #00ff00 solid 1px;
+}
+#video
+{
+    border: #00ff00 solid 1px;
+}
