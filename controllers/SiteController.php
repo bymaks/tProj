@@ -61,6 +61,30 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $this->view->registerJsFile('/js/qr-code/grid.js');
+        $this->view->registerJsFile('/js/qr-code/version.js');
+        $this->view->registerJsFile('/js/qr-code/detector.js');
+        $this->view->registerJsFile('/js/qr-code/formatinf.js');
+        $this->view->registerJsFile('/js/qr-code/errorlevel.js');
+        $this->view->registerJsFile('/js/qr-code/bitmat.js');
+        $this->view->registerJsFile('/js/qr-code/datablock.js');
+        $this->view->registerJsFile('/js/qr-code/bmparser.js');
+        $this->view->registerJsFile('/js/qr-code/datamask.js');
+        $this->view->registerJsFile('/js/qr-code/rsdecoder.js');
+        $this->view->registerJsFile('/js/qr-code/gf256poly.js');
+        $this->view->registerJsFile('/js/qr-code/gf256.js');
+        $this->view->registerJsFile('/js/qr-code/decoder.js');
+        $this->view->registerJsFile('/js/qr-code/qrcode.js');
+        $this->view->registerJsFile('/js/qr-code/findpat.js');
+        $this->view->registerJsFile('/js/qr-code/alignpat.js');
+        $this->view->registerJsFile('/js/qr-code/databr.js');
+
+
+        $this->view->registerJsFile('/js/whammy.js');
+        $this->view->registerJsFile('/js/FileSave.js');
+        $this->view->registerJsFile('/js/canvas.js');
+        $this->view->registerJsFile('/js/camera.js');
+
         return $this->render('index');
     }
 
