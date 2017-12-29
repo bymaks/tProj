@@ -81,7 +81,7 @@ class SiteController extends Controller
 
 
         $this->view->registerJsFile('/js/whammy.js');
-        $this->view->registerJsFile('/js/FileSave.js');
+        //$this->view->registerJsFile('/js/FileSave.js');
         $this->view->registerJsFile('/js/canvas.js');
         $this->view->registerJsFile('/js/camera.js');
 

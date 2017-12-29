@@ -6,7 +6,7 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
-    <video id="video">
+    <video id="video" >
 
     </video>
 
@@ -14,7 +14,7 @@ $this->title = 'My Yii Application';
     <br>
 
 
-    <canvas id="my_canvas">
+    <canvas id="my_canvas" style="display: none;">
 
     </canvas>
     <section>
@@ -22,8 +22,11 @@ $this->title = 'My Yii Application';
             <button id="camera-me" >1. Show video</button>
         </div>
         <div id="video-preview">
-            <button id="record-me" disabled>2. Record<!--⚫--></button>
-            <button id="stop-me">◼</button>
+            <button id="decode-me">2. Decode</button>
         </div>
     </section>
+
+    <div>
+        <label id="wallet"></label>
+    </div>
 </div>
